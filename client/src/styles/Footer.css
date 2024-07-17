@@ -1,0 +1,146 @@
+.footer {
+  background-color: #0c0c0c;
+  color: var(--primary-color);
+}
+.footer-wave-svg {
+  background-color: transparent;
+  display: block;
+  height: 1.6rem;
+  position: relative;
+  top: -1px;
+  width: 100%;
+}
+.footer-wave-path {
+  fill: #fff;
+}
+
+.footer-social-links {
+  bottom: 0;
+  height: 3rem;
+  position: absolute;
+  right: 0;
+  width: 14.75rem;
+}
+
+.footer-social-amoeba-svg {
+  height: 3.375rem;
+  left: 0;
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 14.75rem;
+}
+
+.footer-social-bull {
+  fill: #313536;
+}
+
+.footer-social-link {
+  display: block;
+  padding: 0.625rem;
+  position: absolute;
+}
+
+.footer-social-icon-svg {
+  display: block;
+}
+
+.footer-social-icon-path {
+  fill: var(--primary-color);
+  transition: fill 0.2s;
+}
+.footer-social-link.linkedin {
+  left: 0.3rem;
+  top: 0.7rem;
+  width: 2.5rem;
+}
+
+.footer-social-link.twitter {
+  left: 3.88rem;
+  top: 0.2rem;
+  width: 3rem;
+}
+
+.footer-social-link.youtube {
+  left: 7.7rem;
+  top: 0.7rem;
+  width: 2.8rem;
+}
+
+.footer-social-link.github {
+  left: 11rem;
+  top: 0.4rem;
+  width: 3rem;
+}
+
+.footer-copyright {
+  background-color: #313536;
+  color: var(--primary-color);
+  padding: 0.9rem 1.875rem;
+  text-align: center;
+}
+
+.footer-copyright-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75rem;
+}
+
+.footer-copyright-text {
+  color: var(--primary-color);
+  font-size: 0.82rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.footer-copyright-link {
+  color: var(--primary-color);
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 76rem;
+    padding: 2.5rem 0.95rem 3.125rem;
+    position: relative;
+  }
+}
+@media (min-width: 480px) and (max-width: 599px) {
+  .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 76rem;
+    padding: 2.5rem 0.95rem 6.25rem;
+    position: relative;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 76rem;
+    padding: 2.5rem 0.95rem 9.4rem;
+    position: relative;
+  }
+}
+
+@media (min-width: 760px) {
+  .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 76rem;
+    padding: 2.5rem 0.95rem 9.4rem;
+    position: relative;
+  }
+
+  .footer-wave-svg {
+    height: 3.125rem;
+  }
+
+  .footer-content-column {
+    width: 24.99%;
+  }
+}
