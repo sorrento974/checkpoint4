@@ -1,3 +1,8 @@
+Un projet qui a a pour but de reunir des informations sur les dessins animées des années 80-90 et les jouets qui y sont liés.
+Le site pourra evoluer grâce à l'ajout, la modification ou la suppression d'information.
+Lancement du serveur localhost:3000 grace a la commande "npm run dev". 
+
+
 C:\Users\kevin b\p4\client\src\assets\images\mcd mld mpd.png
 
 # p4
