@@ -2,7 +2,7 @@ Un projet qui a a pour but de reunir des informations sur les dessins animées d
 Le site pourra evoluer grâce à l'ajout, la modification ou la suppression d'information.
 Lancement du serveur localhost:3000 grace a la commande "npm run dev". 
 
-<img url="./assets/images/mcd mld mpd.png" alt="mcd-mld-mpd" />
+<img url="client/src/assets/images/mcd mld mpd.png" alt="mcd-mld-mpd" />
 
 # p4
 
