@@ -43,7 +43,7 @@ function ContactPage() {
     <>
       <img
         className="banniere-contact-page"
-        src="./src/assets/images/banniere-2-2000x1200.jpg"
+        src="./src/assets/images/banniere.jpg"
         alt="banniere site remember"
       />
       <section className="contact-form-container">

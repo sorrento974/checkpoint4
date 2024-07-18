@@ -1,30 +1,50 @@
+import {
+  createBrowserRouter,
+  RouterProvider,
+  redirect,
+} from "react-router-dom";
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import myAxios from "./services/myAxios";
 
 import App from "./App";
 import Home from "./pages/Home";
 import ToysPage from "./pages/ToysPage";
 import ContactPage from "./pages/ContactPage";
-
-// function toys() {
-//   return fetch(
-//     "https://www.thecocktaildb.com/api/json/v1/1/filter.php?c=Cocktail"
-//   )
-//     .then((response) => response.json())
-//     .then((data) => data.drinks);
-// }
+import AdminPage from "./pages/AdminPage";
 
 const router = createBrowserRouter([
   {
     element: <App />,
     children: [
-      { path: "/", element: <Home /> },
+      {
+        path: "/",
+        element: <Home />,
+        loader: async () => {
+          const response = await myAxios.get("/api/cartoons");
+
+          return response.data;
+        },
+      },
       { path: "/contact", element: <ContactPage /> },
       {
-        path: "/toys/:cartoonId",
+        path: "/toys",
+
         element: <ToysPage />,
+      },
+      {
+        path: "/admin",
+        element: <AdminPage />,
+        loader: async () => {
+          const response = await myAxios.get("/api/cartoons");
+          return response.data;
+        },
+        action: async ({ request }) => {
+          const formData = await request.formData();
+          const name = formData.get("name");
+          await myAxios.post("/api/cartoons", { name });
+          return redirect("/");
+        },
       },
     ],
   },

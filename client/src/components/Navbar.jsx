@@ -32,18 +32,18 @@ function Navbar() {
           </NavLink>
         </li>
         <li className="navbar__link second">
-          <NavLink to="/services" className="link" onClick={handleLinkClick}>
-            Services
-          </NavLink>
-        </li>
-        <li className="navbar__link third">
           <NavLink to="/contact" className="link" onClick={handleLinkClick}>
             Contact
           </NavLink>
         </li>
-        <li className="navbar__link four">
+        <li className="navbar__link third">
           <NavLink to="/inscription" className="link" onClick={handleLinkClick}>
             Inscription
+          </NavLink>
+        </li>
+        <li className="navbar__link four">
+          <NavLink to="/admin" className="link" onClick={handleLinkClick}>
+            Administration
           </NavLink>
         </li>
       </ul>

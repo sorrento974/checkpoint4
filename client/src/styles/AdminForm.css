@@ -1,0 +1,58 @@
+.label-delete-name {
+  margin: 1rem 1rem;
+}
+.form-delete-name {
+  margin: 0 2rem 0 0;
+}
+.input-delete-name {
+  margin: 1rem;
+}
+.button-delete-name {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+}
+.label-add-name {
+  margin: 1rem 1rem;
+}
+.form-add-name {
+  margin: 0 2rem 0 0;
+}
+.input-add-name {
+  margin: 1rem;
+}
+.button-add-name {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+}
+@media screen and (min-width: 768px) {
+  .label-delete-name {
+    margin: 1rem 1rem;
+    font-size: 1.5rem;
+  }
+  .form-delete-name {
+    margin: 0 2rem 0 15rem;
+    width: 20rem;
+  }
+  .input-delete-name {
+    margin: 1rem;
+  }
+  .button-delete-name {
+    margin: 2rem 1rem;
+    padding: 0.5rem 1.5rem;
+  }
+  .label-add-name {
+    margin: 1rem 1rem;
+    font-size: 1.5rem;
+  }
+  .form-add-name {
+    margin: 0 2rem 0 15rem;
+    width: 20rem;
+  }
+  .input-add-name {
+    margin: 1rem;
+  }
+  .button-add-name {
+    margin: 2rem 1rem;
+    padding: 0.5rem 1rem;
+  }
+}
