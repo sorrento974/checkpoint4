@@ -3,7 +3,7 @@ Le site pourra evoluer grâce à l'ajout, la modification ou la suppression d'in
 Lancement du serveur localhost:3000 grace a la commande "npm run dev". 
 
 
-C:\Users\kevin b\p4\client\src\assets\images\mcd mld mpd.png
+<img>C:\Users\kevin b\p4\client\src\assets\images\mcd mld mpd.png</img>
 
 # p4
 
