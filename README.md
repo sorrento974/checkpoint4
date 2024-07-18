@@ -1,3 +1,8 @@
+Un projet qui a a pour but de reunir des informations sur les dessins animées des années 80-90 et les jouets qui y sont liés.
+Le site pourra evoluer grâce à l'ajout, la modification ou la suppression d'information.
+Lancement du serveur localhost:3000 grace a la commande "npm run dev". 
+
+
 # p4
 
 This project uses Harmonia. Harmonia is a framework meant to serve as a foundation for every project following the React-Express-MySQL stack, as learned in Wild Code School.
